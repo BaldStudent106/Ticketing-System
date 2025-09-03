@@ -1,0 +1,30 @@
+Endpoint checking- Pre-requisite Stage:- (T1)
+
+i. Setup - IMAP | POP 3 | Web Mail l Account Re-Setup -NA
+ii. Device Types - Phone | Tablet | PC | Laptop -NA
+iii. APP & Software: Windows Live Mail l Fox Mail l Outlook l Apple Mail | thunderbird -NA
+iv. Mail Storage location: File Pst | Archiving Setting | Ost ( IMAP ) | Keep in server duration l Mail Storage Re-Setup -NA
+v. IP blocking & Firewall: Ping | Telnet l Mail Tester -NA
+vi. License Checking l Versioning l Plug-In l Software Repair l Re-Install -NA
+vii. Auto-Responder l Forwarders - NA
+viii. Group Mail: Add Mail l Remove Mail - In progress
+
+
+
+
+Mail Server Security- R&D Stage :- (T2)
+
+i. Mail account Creation & Credential: Create account | Reset password -NA
+ii. IP blocking & Firewall: Whitelist & Blacklist -NA
+iii. SPAM Score black list: SPF | DKIM | DMRAC | Spam Filter -NA
+iv. Mail delivery report: Exchange | WHM -NA
+v. Hosting Provider: ZENY l External vendor (Require vendor liaison) -NA
+vi. Outlook Registry | 3rd Party APP Plugin -NA  
+
+
+
+Mail Server Troubleshooting:- (T3)
+
+i. Mail Server: WHM l cPanel l cPlesk l Exchange 365 | Private Cloud | Mail Store -NA
+ii. Server configuration: Incoming | Outgoing Setting & Port -NA
+iii. Server DNS record pointing: A record | CNAME | MX record  -NA
