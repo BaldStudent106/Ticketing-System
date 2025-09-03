@@ -1,30 +1,58 @@
+Examination l Symptoms
+
+- Email Identity
+ i. Email Address
+ ii. Is this a Shared Email Address?
+ iii. Primary vs Alias Address
+ iv. Department/Team using this email
+
 Endpoint checking- Pre-requisite Stage:- (T1)
 
 i. Setup - IMAP | POP 3 | Web Mail l Account Re-Setup -NA
 ii. Device Types - Phone | Tablet | PC | Laptop -NA
 iii. APP & Software: Windows Live Mail l Fox Mail l Outlook l Apple Mail | thunderbird -NA
 iv. Mail Storage location: File Pst | Archiving Setting | Ost ( IMAP ) | Keep in server duration l Mail Storage Re-Setup -NA
-v. IP blocking & Firewall: Ping | Telnet l Mail Tester -NA
-vi. License Checking l Versioning l Plug-In l Software Repair l Re-Install -NA
-vii. Auto-Responder l Forwarders - NA
-viii. Group Mail: Add Mail l Remove Mail - In progress
-
-
+v. Network Type – Office Wi-Fi | Home Wi-Fi | Mobile Data | VPN
+vi. Browser access tested? (for webmail logins)
+vii. Last Known Working (date/time email last worked)
+viii. Any recent changes (password reset, device change, OS update, migration)
+ix. Auto-Responder | Forwarders
+x. Group Mail: Add Mail | Remove Mail
 
 
 Mail Server Security- R&D Stage :- (T2)
 
-i. Mail account Creation & Credential: Create account | Reset password -NA
-ii. IP blocking & Firewall: Whitelist & Blacklist -NA
-iii. SPAM Score black list: SPF | DKIM | DMRAC | Spam Filter -NA
-iv. Mail delivery report: Exchange | WHM -NA
-v. Hosting Provider: ZENY l External vendor (Require vendor liaison) -NA
-vi. Outlook Registry | 3rd Party APP Plugin -NA  
-
+i. Mailbox Size / Quota (close to full?)
+ii. Archiving preference (server-based or local PST/OST)
+iii. Mail account Creation & Credential – Create account | Reset password (requirement confirmation)
+iv. Hosting Provider: ZENY | External vendor (require vendor liaison)
 
 
 Mail Server Troubleshooting:- (T3)
 
 i. Mail Server: WHM l cPanel l cPlesk l Exchange 365 | Private Cloud | Mail Store -NA
-ii. Server configuration: Incoming | Outgoing Setting & Port -NA
-iii. Server DNS record pointing: A record | CNAME | MX record  -NA
+
+Finding l Discovery
+
+- Endpoint checking (T1)
+  i. IP blocking & Firewall: Ping | Telnet | Mail Tester
+  ii. License Checking | Versioning | Plug-In | Software Repair | Re-Install
+
+- Mail Server Security (T2)
+  i. IP blocking & Firewall: Whitelist & Blacklist
+  ii. SPAM Score / Blacklist: SPF | DKIM | DMARC | Spam Filter
+  iii. Mail delivery report: Exchange | WHM
+  iv. Outlook Registry | 3rd Party APP Plugin
+  v. Account login logs (failed/successful logins, unusual IPs)
+  vi. MFA (Multi-Factor Authentication) status
+  vii. Brute force / failed login lockouts
+
+- Mail Server Troubleshooting (T3)
+  i. Server configuration: Incoming | Outgoing Setting & Port
+  ii. Server DNS record pointing: A record | CNAME | MX record
+  iii. Reverse DNS (PTR) record check
+  iv. SMTP banner check (matches domain name)
+  v. Greylisting / rate-limiting rules
+  vi. Disk space / mailbox quota usage on server
+  vii. Mail queue status (stuck or delayed emails)
+  viii. SSL/TLS certificate validity (for IMAP/SMTP/HTTPS)
